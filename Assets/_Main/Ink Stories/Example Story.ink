@@ -14,5 +14,16 @@ Ah, here we go. #speaker:Helpful Hilda
 One last thing. #speaker:Helpful Hannah
 You can change the dialogue to be an internal thought. #mc:true
 And then of course, switch back to speaking. #mc:false
+Oh. Actually I should mention, choices don't have to have three options. That was just an example.
+Why don't I show you one that has two choices?
+Here. What's your favorite fruit out of these options?
+* [Apples] -> choice1
+* [Oranges] -> choice2
+== choice1
+Cool! Apples are great.
+That's all!
+-> DONE
+== choice2
+Awesome! I'm a fan of oranges too.
 That's all!
 -> DONE

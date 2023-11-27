@@ -16,11 +16,14 @@ public class DialogueManager : MonoBehaviour
     TMP_Text message;
     static Choice choiceSelected;
     private const string SPEAKER_TAG = "speaker";
+    private const string MC_TAG = "mc";
     [SerializeField] private TextMeshProUGUI displayNameText;
+    [SerializeField] private GameObject nameBox;
 
     // Start is called before the first frame update
     void Start()
     {
+        nameBox.SetActive(true);
         story = new Story(inkFile.text);
         nametag = textBox.transform.GetChild(0).GetComponent<TMP_Text>();
         message = textBox.transform.GetChild(1).GetComponent<TMP_Text>();
@@ -143,7 +146,27 @@ public class DialogueManager : MonoBehaviour
                 case "color":
                     SetTextColor(tagValue);
                     break;
+
+                case MC_TAG:
+                    toggleNameBox(tagValue);
+                    break;
             }
+        }
+    }
+
+    void toggleNameBox(string id)
+    {
+        switch (id)
+        {
+            case "true":
+                nameBox.SetActive(false);
+                break;
+            case "false":
+                nameBox.SetActive(true);
+                break;
+            default:
+                Debug.Log("Not true or false statement.");
+                break;
         }
     }
     void SetTextColor(string _color)

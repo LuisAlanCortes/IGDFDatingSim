@@ -559,7 +559,7 @@ GameObject:
   - component: {fileID: 1258452997}
   - component: {fileID: 1258452996}
   m_Layer: 5
-  m_Name: Name Tag
+  m_Name: Choice Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1019,6 +1019,7 @@ MonoBehaviour:
   customButton: {fileID: 6691051510893143973, guid: ce7970bc6b289a04ba7a543a11ecaf44, type: 3}
   optionPanel: {fileID: 2075761007}
   displayNameText: {fileID: 639665416}
+  nameBox: {fileID: 1924495458}
 --- !u!1 &1924495458
 GameObject:
   m_ObjectHideFlags: 0

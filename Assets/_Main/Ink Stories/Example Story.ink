@@ -11,5 +11,8 @@ Here's how the choice screen looks.
 I'd like you to take notice of the name tag.
 This can be changed at any time. What's another 'H' name...
 Ah, here we go. #speaker:Helpful Hilda
-That's all! #speaker:Helpful Hannah
+One last thing. #speaker:Helpful Hannah
+You can change the dialogue to be an internal thought. #mc:true
+And then of course, switch back to speaking. #mc:false
+That's all!
 -> DONE

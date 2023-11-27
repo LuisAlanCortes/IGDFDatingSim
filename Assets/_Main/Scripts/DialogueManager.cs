@@ -11,7 +11,6 @@ public class DialogueManager : MonoBehaviour
     public GameObject textBox;
     public GameObject customButton;
     public GameObject optionPanel;
-
     static Story story;
     TMP_Text nametag;
     TMP_Text message;
@@ -26,11 +25,12 @@ public class DialogueManager : MonoBehaviour
         nametag = textBox.transform.GetChild(0).GetComponent<TMP_Text>();
         message = textBox.transform.GetChild(1).GetComponent<TMP_Text>();
         choiceSelected = null;
+        displayNameText.text = "???";
     }
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             //Is there more to the story?
             if(story.canContinue)
@@ -50,9 +50,8 @@ public class DialogueManager : MonoBehaviour
             }
         }
     }
-
-        // Finished the Story (Dialogue)
-        private void FinishDialogue()
+    // Finished the Story (Dialogue)
+    private void FinishDialogue()
     {
         Debug.Log("End of Dialogue!");
     }
@@ -61,8 +60,8 @@ public class DialogueManager : MonoBehaviour
     void AdvanceDialogue()
     {
         string currentSentence = story.Continue();
-        ParseTags(story.currentTags);
         StopAllCoroutines();
+        ParseTags(story.currentTags);
         StartCoroutine(TypeSentence(currentSentence));
     }
 
@@ -70,7 +69,7 @@ public class DialogueManager : MonoBehaviour
     IEnumerator TypeSentence(string sentence)
     {
         message.text = "";
-        foreach(char letter in sentence.ToCharArray())
+        foreach (char letter in sentence.ToCharArray())
         {
             message.text += letter;
             yield return null;
@@ -134,7 +133,6 @@ public class DialogueManager : MonoBehaviour
             }
             string tagKey = splitTag[0].Trim();
             string tagValue = splitTag[1].Trim();
-
             // handle the tag
             switch (tagKey)
             {

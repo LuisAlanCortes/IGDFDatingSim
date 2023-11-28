@@ -7,6 +7,7 @@ using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
+    public CharacterAnimator anim;
     public TextAsset inkFile;
     public GameObject textBox;
     public GameObject customButton;
@@ -33,7 +34,7 @@ public class DialogueManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
             //Is there more to the story?
             if(story.canContinue)
@@ -71,6 +72,7 @@ public class DialogueManager : MonoBehaviour
     // Type out the sentence letter by letter and make character idle if they were talking
     IEnumerator TypeSentence(string sentence)
     {
+        anim.Bounce(0.5f, 15f, 35f);
         message.text = "";
         foreach (char letter in sentence.ToCharArray())
         {

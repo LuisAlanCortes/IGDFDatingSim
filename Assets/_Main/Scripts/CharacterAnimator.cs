@@ -26,8 +26,17 @@ public class CharacterAnimator : MonoBehaviour
         }
     }
 
+    bool bouncing;
+    public void Bounce(float time = 1f, float frequency = 1f, float intensity = 1f)
+    {
+        if (bouncing)
+            return;
+        StartCoroutine(CoBounce(time, frequency, intensity));
+    }
+
     private IEnumerator CoBounce(float time, float frequency, float intensity)
     {
+        bouncing = true;
         float t = 0f;
         while (t < time)
         {
@@ -38,6 +47,7 @@ public class CharacterAnimator : MonoBehaviour
             t += Time.deltaTime;
             yield return null;
         }
+        bouncing = false;
 
         charRect.localPosition = Vector2.zero;
     }

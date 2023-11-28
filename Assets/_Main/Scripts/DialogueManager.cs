@@ -17,6 +17,8 @@ public class DialogueManager : MonoBehaviour
     TMP_Text message;
     static Choice choiceSelected;
     private const string SPEAKER_TAG = "speaker";
+    private const string CHAR_TAG = "chara";
+    private const string SPRITE_TAG = "spr";
     private const string MC_TAG = "mc";
     [SerializeField] private TextMeshProUGUI displayNameText;
     [SerializeField] private GameObject nameBox;
@@ -144,7 +146,12 @@ public class DialogueManager : MonoBehaviour
                 case SPEAKER_TAG:
                     displayNameText.text = tagValue;
                     break;
-
+                case CHAR_TAG:
+                    anim.SetCharacter(tagValue.ToLower());
+                    break;
+                case SPRITE_TAG:
+                    anim.ChangeSprite(tagValue.ToLower());
+                    break;
                 case "color":
                     SetTextColor(tagValue);
                     break;

@@ -457,6 +457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 778424217}
   - component: {fileID: 778424218}
+  - component: {fileID: 778424219}
   m_Layer: 5
   m_Name: Character
   m_TagString: Untagged
@@ -496,10 +497,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aa625ab2fe05bd43956b1b1e5e0c913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  database: {fileID: 778424219}
   charSprite: {fileID: 2134558645}
   debugTime: 1
   debugIntensity: 1
   debugFrq: 150
+--- !u!114 &778424219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778424216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c39aa409e67f4444181687402089167f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characters:
+  - {fileID: 11400000, guid: fc090dca1ce99674aa41a050d3af9c88, type: 2}
+  - {fileID: 11400000, guid: 59888b1228746124c90fc4727c65f186, type: 2}
 --- !u!1 &1161113714
 GameObject:
   m_ObjectHideFlags: 0
@@ -1637,7 +1654,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5de6bd03efca9d047a2bca3955f68f5d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8cdfefcb5772931419fa2f1681d0093f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

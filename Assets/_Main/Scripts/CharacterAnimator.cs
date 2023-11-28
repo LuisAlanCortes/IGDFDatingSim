@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class CharacterAnimator : MonoBehaviour
 {
+    [SerializeField] CharacterDatabase database;
     [SerializeField] Image charSprite;
     [SerializeField] float debugTime;
     [SerializeField] float debugIntensity;
@@ -23,6 +24,24 @@ public class CharacterAnimator : MonoBehaviour
         if (GUI.Button(new Rect(0, 0, 100, 100), "Boing"))
         {
             StartCoroutine(CoBounce(debugTime, debugIntensity, debugFrq));
+        }
+    }
+
+    private const string DEFAULT_SPRITE = "default";
+    public void SetCharacter(string id)
+    {
+        if (database.SetCurrentChar(id))
+        {
+            ChangeSprite(DEFAULT_SPRITE);
+        }
+    }
+
+    public void ChangeSprite(string id)
+    {
+        Sprite spr = database.GetSprite(id);
+        if (spr != null)
+        {
+            charSprite.sprite = spr;
         }
     }
 

@@ -11,7 +11,9 @@ Here's how the choice screen looks.
 I'd like you to take notice of the name tag.
 This can be changed at any time. What's another 'H' name...
 Ah, here we go. #speaker:Helpful Hilda
-One last thing. #speaker:Helpful Hannah
+You can also change the character like so. #chara:dad
+And change the expression! #chara:dad #spr:happy
+One last thing. #speaker:Helpful Hannah #chara:helpful
 You can change the dialogue to be an internal thought. #mc:true
 And then of course, switch back to speaking. #mc:false
 Oh. Actually I should mention, choices don't have to have three options. That was just an example.

@@ -11,7 +11,7 @@ Here's how the choice screen looks.
 I'd like you to take notice of the name tag.
 This can be changed at any time. What's another 'H' name...
 Ah, here we go. #speaker:Helpful Hilda
-You can also change the character like so. #chara:dad
+You can also change the character like so. #chara:dad #speaker:Dad
 And change the expression! #chara:dad #spr:happy
 One last thing. #speaker:Helpful Hannah #chara:helpful
 You can change the dialogue to be an internal thought. #mc:true

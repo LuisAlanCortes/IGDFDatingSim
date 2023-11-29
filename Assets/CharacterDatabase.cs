@@ -51,7 +51,6 @@ public class CharacterDatabase : MonoBehaviour
         idToChar = new Dictionary<string, CharacterSet>();
         foreach (CharacterSet set in characters)
         {
-            Debug.Log(set.id);
             idToChar.Add(set.id, set);
         }
     }

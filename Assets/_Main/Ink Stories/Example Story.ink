@@ -1,3 +1,9 @@
+// Allows variables from the Global Ink file to be referenced.
+INCLUDE Globals.ink
+
+{ dayCounter == "1": -> day1 | -> null }
+
+=== day1 ===
 Welcome to the example dialogue screen prototype. I'll show you what's included. #speaker:Helpful Hannah
 For example, here's some color text! #color: red
 And now onto the choices. #color: white
@@ -28,4 +34,8 @@ That's all!
 == choice2
 Awesome! I'm a fan of oranges too.
 That's all!
+-> DONE
+
+=== null ===
+Test unsuccessful.
 -> DONE

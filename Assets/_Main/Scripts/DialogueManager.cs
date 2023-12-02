@@ -7,29 +7,45 @@ using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
+    // Initialization of variables.
     public CharacterAnimator anim;
     public TextAsset inkFile;
     public GameObject textBox;
     public GameObject customButton;
     public GameObject optionPanel;
     static Story story;
-    TMP_Text nametag;
-    TMP_Text message;
     static Choice choiceSelected;
+    TMP_Text message;
     private const string SPEAKER_TAG = "speaker";
     private const string CHAR_TAG = "chara";
     private const string SPRITE_TAG = "spr";
     private const string MC_TAG = "mc";
+    private DialogueVariables dialogueVariables;
+    private static DialogueManager instance;
     [SerializeField] private TextMeshProUGUI displayNameText;
     [SerializeField] private GameObject nameBox;
+    [SerializeField] private TextAsset loadGlobalsJSON;
+    private void Awake()
+    {
+        if (instance != null)
+        {
+            Debug.LogWarning("Found more than one Dialogue Manager in the scene");
+        }
+        instance = this;
+        dialogueVariables = new DialogueVariables(loadGlobalsJSON);
+    }
 
+    public static DialogueManager GetInstance()
+    {
+        return instance;
+    }
     // Start is called before the first frame update
     void Start()
     {
         nameBox.SetActive(true);
         story = new Story(inkFile.text);
-        nametag = textBox.transform.GetChild(0).GetComponent<TMP_Text>();
-        message = textBox.transform.GetChild(1).GetComponent<TMP_Text>();
+        dialogueVariables.StartListening(story);
+        message = textBox.transform.GetChild(0).GetComponent<TMP_Text>();
         choiceSelected = null;
         displayNameText.text = "???";
     }
@@ -41,7 +57,6 @@ public class DialogueManager : MonoBehaviour
             //Is there more to the story?
             if(story.canContinue)
             {
-                nametag.text = "";
                 AdvanceDialogue();
 
                 //Are there any choices?
@@ -56,13 +71,14 @@ public class DialogueManager : MonoBehaviour
             }
         }
     }
-    // Finished the Story (Dialogue)
+    // Presents a message in the console that the INK file is expended; finishes dialogue.
     private void FinishDialogue()
     {
         Debug.Log("End of Dialogue!");
+        dialogueVariables.StopListening(story);
     }
 
-    // Advance through the story 
+    // Continues the dialogue.
     void AdvanceDialogue()
     {
         string currentSentence = story.Continue();
@@ -71,7 +87,7 @@ public class DialogueManager : MonoBehaviour
         StartCoroutine(TypeSentence(currentSentence));
     }
 
-    // Type out the sentence letter by letter and make character idle if they were talking
+    // Makes the character bounce, as well as sends out dialogue letter by letter.
     IEnumerator TypeSentence(string sentence)
     {
         anim.Bounce(0.5f, 15f, 35f);
@@ -83,7 +99,7 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    // Create then show the choices on the screen until one got selected
+    // Create choices, maintain until one is selected.
     IEnumerator ShowChoices()
     {
         Debug.Log("There are choices need to be made here!");
@@ -105,7 +121,7 @@ public class DialogueManager : MonoBehaviour
         AdvanceFromDecision();
     }
 
-    // Tells the story which branch to go to
+    // Tells the story which branch to go to.
     public static void SetDecision(object element)
     {
         choiceSelected = (Choice)element;
@@ -155,7 +171,6 @@ public class DialogueManager : MonoBehaviour
                 case "color":
                     SetTextColor(tagValue);
                     break;
-
                 case MC_TAG:
                     toggleNameBox(tagValue);
                     break;
@@ -198,6 +213,35 @@ public class DialogueManager : MonoBehaviour
                 Debug.Log($"{_color} is not available as a text color");
                 break;
         }
+    }
+    public Ink.Runtime.Object GetVariableState(string variableName)
+    {
+        Ink.Runtime.Object variableValue = null;
+        dialogueVariables.variables.TryGetValue(variableName, out variableValue);
+        if (variableValue == null)
+        {
+            Debug.LogWarning("Ink Variable was found to be null: " + variableName);
+        }
+        return variableValue;
+    }
+    // this method will allow of a variable defined in globals.ink to be set using C# code
+    public void SetVariableState(string variableName, Ink.Runtime.Object variableValue)
+    {
+        if (dialogueVariables.variables.ContainsKey(variableName))
+        {
+            dialogueVariables.variables.Remove(variableName);
+            dialogueVariables.variables.Add(variableName, variableValue);
+        }
+        else
+        {
+            Debug.LogWarning("Tried to update variable that wasn't initialized by globals.ink: " + variableName);
+        }
+    }
+    // This method will get called anytime the application exits.
+    // Depending on your game, you may want to save variable state in other places.
+    public void OnApplicationQuit()
+    {
+        dialogueVariables.SaveVariables();
     }
 
 }

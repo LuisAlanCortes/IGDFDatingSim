@@ -15,5 +15,13 @@ MonoBehaviour:
   id: angler
   sprites:
   - id: default
-    asset: {fileID: 21300000, guid: 76ddab3e6a337ca4d938231967f34b45, type: 3}
+    asset: {fileID: 21300000, guid: c15f3d603efe25f4cbf0452c558a3738, type: 3}
+  - id: happy
+    asset: {fileID: 21300000, guid: fdd9cce42bccee045b062c8207a3302a, type: 3}
+  - id: sad
+    asset: {fileID: 21300000, guid: 7d34a5a4e16533840a5ca1d974f6bb05, type: 3}
+  - id: conf
+    asset: {fileID: 21300000, guid: 8761a816aa1f7914283a5088278b6850, type: 3}
+  - id: angry
+    asset: {fileID: 21300000, guid: 87aa8b147383dca4cad8ce50e19b6774, type: 3}
   voices: []

@@ -72,7 +72,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1177018673
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 3
   m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -97,9 +97,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab3f7aa8fe03f8e4d8c59da85daa9b4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 5
-  moveSpeed: 5
+  oxygenManager: {fileID: 0}
+  breathMeterImage: {fileID: 0}
   oceanSurface: {fileID: 0}
+  timer: {fileID: 0}
+  gameManager: {fileID: 0}
+  jumpForce: 5
+  swimSpeed: 5
+  detectionDistant: 2
+  maxBreathTime: 0
+  breathRegainRate: 0
+  oceanLevel: -86
 --- !u!50 &3018602627203365449
 Rigidbody2D:
   serializedVersion: 4

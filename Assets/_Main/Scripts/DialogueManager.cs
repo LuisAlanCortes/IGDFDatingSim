@@ -61,6 +61,9 @@ public class DialogueManager : MonoBehaviour
         message = textBox.transform.GetChild(0).GetComponent<TMP_Text>();
         choiceSelected = null;
         displayNameText.text = "???";
+
+        if (DayManager.instance)
+            DayManager.instance.ConfirmValues();
     }
 
     private void Update()

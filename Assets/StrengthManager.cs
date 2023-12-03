@@ -73,7 +73,7 @@ public class StrengthManager : MonoBehaviour
     Coroutine vel;
     private IEnumerator CheckVel()
     {
-        float t = 0.3f;
+        float t = 1f;
         bool cancel = false;
         while (t > 0f)
         {
@@ -88,6 +88,17 @@ public class StrengthManager : MonoBehaviour
         vel = null;
         if (!cancel)
         {
+            countdown.gameObject.SetActive(true);
+            int pointCalc = Mathf.FloorToInt(bag.transform.position.x / 200);
+            if (pointCalc < 0)
+                pointCalc = 0;
+
+            countdown.color = Color.white;
+            countdown.text = "STRENGTH POINTS EARNED:\n" + pointCalc.ToString();
+            DayManager.instance.AddToPoints(DayManager.Skill.STRENGTH, pointCalc);
+
+            yield return new WaitForSecondsRealtime(2.5f);
+
             SceneManager.LoadScene("Hub");
         }
     }

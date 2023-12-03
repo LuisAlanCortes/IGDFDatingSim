@@ -940,6 +940,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f9f742e1ae9841469dfbc2ae32d17f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DayCounter: 0
+  StoredSkills: 
 --- !u!1 &1564743616
 GameObject:
   m_ObjectHideFlags: 0

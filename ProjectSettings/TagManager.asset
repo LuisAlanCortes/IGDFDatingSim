@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - UnloadSpot
+  - Ocean
+  - Land
+  - Collectables
+  - Bubbles
   layers:
   - Default
   - TransparentFX
@@ -40,4 +45,25 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ocean
+    uniqueID: 609907219
+    locked: 0
+  - name: OceanTiers
+    uniqueID: 1138985399
+    locked: 0
+  - name: Collectables
+    uniqueID: 2928341907
+    locked: 0
+  - name: Obstacles
+    uniqueID: 1700253713
+    locked: 0
+  - name: UnlaodDock
+    uniqueID: 2581484483
+    locked: 0
+  - name: Player
+    uniqueID: 4198812689
+    locked: 0
+  - name: UICamera
+    uniqueID: 1108429065
     locked: 0

@@ -193,6 +193,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1366625389
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
 --- !u!1 &29741096
@@ -445,12 +453,20 @@ PrefabInstance:
       value: GroundObstacles (18)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -572,6 +588,14 @@ PrefabInstance:
     - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
       propertyPath: m_Color.r
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1366625389
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
@@ -937,6 +961,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1366625389
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
 --- !u!4 &141523855 stripped
@@ -1094,12 +1126,20 @@ PrefabInstance:
       value: GroundObstacles (23)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -1167,12 +1207,20 @@ PrefabInstance:
       value: GroundObstacles (13)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -1406,7 +1454,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: -1606252729
+  m_SortingLayerID: 1108429065
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &200244892
@@ -1442,12 +1490,20 @@ PrefabInstance:
       value: GroundObstacles (8)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -1515,12 +1571,20 @@ PrefabInstance:
       value: GroundObstacles (27)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -1738,12 +1802,20 @@ PrefabInstance:
       value: GroundObstacles (25)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -1833,7 +1905,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 715, y: 378}
+  m_AnchoredPosition: {x: 760.9999, y: 437.00134}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &340835232
@@ -1921,7 +1993,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -116.19121, y: 0, z: -48.453854, w: 0}
+  m_margin: {x: -116.19121, y: 0, z: -48.453854, w: 0.0000000384579}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2201,7 +2273,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -14
+      value: -12.6
       objectReference: {fileID: 0}
     - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2243,6 +2315,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coins (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8116453480076698538, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116453480076698538, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1366625389
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6406065368959811448, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
@@ -2280,7 +2360,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -794.00006, y: 272}
+  m_AnchoredPosition: {x: -748.0001, y: 331.00134}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &423925416
@@ -2426,7 +2506,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 691.00006, y: 235}
+  m_AnchoredPosition: {x: 737, y: 294}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &463418936
@@ -2620,12 +2700,20 @@ PrefabInstance:
       value: GroundObstacles (19)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -2748,6 +2836,14 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.03137255
       objectReference: {fileID: 0}
+    - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1366625389
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
 --- !u!1001 &509201605
@@ -2762,12 +2858,20 @@ PrefabInstance:
       value: GroundObstacles (16)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -2891,7 +2995,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 16.2663
+  orthographic size: 13.781746
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2915,7 +3019,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -199.6, y: -74.3, z: -10}
+  m_LocalPosition: {x: -199.6, y: -78.9, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2955,7 +3059,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -789, y: 384}
+  m_AnchoredPosition: {x: -743.0001, y: 443.00134}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &527559033
@@ -3240,12 +3344,20 @@ PrefabInstance:
       value: GroundObstacles (14)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -3416,9 +3528,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1659393980}
     m_Modifications:
+    - target: {fileID: 2956287192611714552, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_Radius
+      value: 0.15356039
+      objectReference: {fileID: 0}
+    - target: {fileID: 2956287192611714552, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0010595724
+      objectReference: {fileID: 0}
+    - target: {fileID: 2956287192611714552, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.011528055
+      objectReference: {fileID: 0}
     - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3426,7 +3558,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 85.1
+      value: 86.2
       objectReference: {fileID: 0}
     - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3468,6 +3600,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coins
       objectReference: {fileID: 0}
+    - target: {fileID: 8116453480076698538, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116453480076698538, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1366625389
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
 --- !u!4 &630424629 stripped
@@ -3484,19 +3624,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2956287192611714552, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_Radius
-      value: 1.1202278
+      value: 0.2642579
       objectReference: {fileID: 0}
     - target: {fileID: 2956287192611714552, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_Offset.x
-      value: -0.031482697
+      value: 0.0010116794
       objectReference: {fileID: 0}
     - target: {fileID: 2956287192611714552, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_Offset.y
-      value: -0.062404633
+      value: 0.02878218
       objectReference: {fileID: 0}
     - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.292187
+      objectReference: {fileID: 0}
+    - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4.741636
       objectReference: {fileID: 0}
     - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3545,6 +3693,14 @@ PrefabInstance:
     - target: {fileID: 6277003609609924103, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_Name
       value: Coins (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116453480076698538, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116453480076698538, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1366625389
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
@@ -3602,10 +3758,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1529121103
-  m_SortingLayer: 3
+  m_SortingLayerID: 1138985399
+  m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+  m_Sprite: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
   m_Color: {r: 0.0693307, g: 0.5324888, b: 0.7735849, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3651,7 +3807,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -50.51
+      value: -49.720005
       objectReference: {fileID: 0}
     - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3696,6 +3852,14 @@ PrefabInstance:
     - target: {fileID: 6277003609609924103, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_Name
       value: Coins (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116453480076698538, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116453480076698538, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1366625389
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6406065368959811448, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
@@ -3818,12 +3982,20 @@ PrefabInstance:
       value: GroundObstacles (11)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -3933,6 +4105,14 @@ PrefabInstance:
     - target: {fileID: 7293149975896932403, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
       propertyPath: m_Name
       value: Bubbles (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1366625389
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
@@ -4084,12 +4264,20 @@ PrefabInstance:
       value: GroundObstacles (4)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -4189,12 +4377,20 @@ PrefabInstance:
       value: GroundObstacles (20)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -4406,12 +4602,20 @@ PrefabInstance:
       value: GroundObstacles (10)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -4559,12 +4763,20 @@ PrefabInstance:
       value: GroundObstacles (24)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -4646,7 +4858,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -53.84
+      value: -53.050007
       objectReference: {fileID: 0}
     - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4692,6 +4904,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coins (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8116453480076698538, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116453480076698538, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1366625389
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6406065368959811448, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
@@ -4707,12 +4927,20 @@ PrefabInstance:
       value: GroundObstacles (3)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -4962,6 +5190,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1366625389
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
 --- !u!4 &1064581257 stripped
@@ -5152,8 +5388,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1279139483
-  m_SortingLayer: 7
+  m_SortingLayerID: -1713482813
+  m_SortingLayer: 5
   m_SortingOrder: 7
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 0.5660378, g: 0.3038126, b: 0, a: 1}
@@ -5203,12 +5439,20 @@ PrefabInstance:
       value: GroundObstacles (22)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -5280,6 +5524,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 7.4837813
+      objectReference: {fileID: 0}
+    - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -276.9
       objectReference: {fileID: 0}
@@ -5327,8 +5575,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coins
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6406065368959811448, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+    - target: {fileID: 8116453480076698538, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116453480076698538, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1366625389
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
 --- !u!1001 &1103425835
 PrefabInstance:
@@ -5342,12 +5597,20 @@ PrefabInstance:
       value: GroundObstacles (5)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -5420,12 +5683,20 @@ PrefabInstance:
       value: GroundObstacles (21)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -5846,12 +6117,20 @@ PrefabInstance:
       value: GroundObstacles (26)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -5972,7 +6251,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 30.28
+      value: 31.069994
       objectReference: {fileID: 0}
     - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6013,6 +6292,14 @@ PrefabInstance:
     - target: {fileID: 6277003609609924103, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_Name
       value: Coins (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116453480076698538, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116453480076698538, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1366625389
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6406065368959811448, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
@@ -6206,9 +6493,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingLayerID: 609907219
+  m_SortingLayer: 1
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 0.21586865, g: 0.6921014, b: 0.9339623, a: 1}
   m_FlipX: 0
@@ -6293,12 +6580,20 @@ PrefabInstance:
       value: GroundObstacles (17)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -6371,12 +6666,20 @@ PrefabInstance:
       value: GroundObstacles (2)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -6449,12 +6752,20 @@ PrefabInstance:
       value: GroundObstacles (6)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -6522,12 +6833,20 @@ PrefabInstance:
       value: GroundObstacles (16)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -6643,6 +6962,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1366625389
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
 --- !u!4 &1384230572 stripped
@@ -6705,6 +7032,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1366625389
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
 --- !u!1001 &1390982168
@@ -6719,12 +7054,20 @@ PrefabInstance:
       value: GroundObstacles
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -6856,7 +7199,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5.0000563, y: 376}
+  m_AnchoredPosition: {x: 40.99985, y: 435.00134}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1477062330
@@ -7281,10 +7624,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 553356713
-  m_SortingLayer: 1
+  m_SortingLayerID: 1700253713
+  m_SortingLayer: 4
   m_SortingOrder: 1
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+  m_Sprite: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
   m_Color: {r: 1, g: 0.9446021, b: 0.3537736, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7410,6 +7753,14 @@ PrefabInstance:
     - target: {fileID: 7293149975896932403, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
       propertyPath: m_Name
       value: Bubbles (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1366625389
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
@@ -7554,12 +7905,20 @@ PrefabInstance:
       value: GroundObstacles (18)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -7636,7 +7995,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -60
+      value: -59.210007
       objectReference: {fileID: 0}
     - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7682,6 +8041,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coins (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8116453480076698538, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116453480076698538, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1366625389
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6406065368959811448, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
@@ -7702,7 +8069,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 94.5
+      value: 95.28999
       objectReference: {fileID: 0}
     - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7743,6 +8110,14 @@ PrefabInstance:
     - target: {fileID: 6277003609609924103, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_Name
       value: Coins
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116453480076698538, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116453480076698538, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1366625389
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
@@ -7942,12 +8317,20 @@ PrefabInstance:
       value: GroundObstacles (9)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -8500,7 +8883,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -33.3
+      value: -32.510006
       objectReference: {fileID: 0}
     - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8545,6 +8928,14 @@ PrefabInstance:
     - target: {fileID: 6277003609609924103, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_Name
       value: Coins (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116453480076698538, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116453480076698538, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1366625389
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6406065368959811448, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
@@ -8595,12 +8986,20 @@ PrefabInstance:
       value: GroundObstacles (12)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -8677,7 +9076,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -68.06
+      value: -67.270004
       objectReference: {fileID: 0}
     - target: {fileID: 3569969183274242616, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8723,6 +9122,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coins (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8116453480076698538, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8116453480076698538, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1366625389
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6406065368959811448, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: de338d17ad719c348ada6f87716b3d9e, type: 3}
@@ -8758,12 +9165,20 @@ PrefabInstance:
       value: GroundObstacles (1)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -9039,12 +9454,20 @@ PrefabInstance:
       value: GroundObstacles (7)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -9160,7 +9583,7 @@ Transform:
   - {fileID: 1178451946}
   - {fileID: 1531252896}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1983092772
 PrefabInstance:
@@ -9174,12 +9597,20 @@ PrefabInstance:
       value: GroundObstacles (17)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -9295,6 +9726,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1366625389
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
 --- !u!1001 &2062169321
@@ -9359,6 +9798,14 @@ PrefabInstance:
     - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
       propertyPath: m_Color.g
       value: 0.2901961
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1366625389
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
@@ -9451,10 +9898,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1529121103
-  m_SortingLayer: 3
+  m_SortingLayerID: 1138985399
+  m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+  m_Sprite: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
   m_Color: {r: 0.2028302, g: 0.60516566, b: 0.8113208, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9491,12 +9938,20 @@ PrefabInstance:
       value: GroundObstacles (15)
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder
@@ -9607,7 +10062,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3018602627203365450, guid: 18e84f6d1075b194a9885ade86bc9132, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3018602627203365450, guid: 18e84f6d1075b194a9885ade86bc9132, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9648,6 +10103,18 @@ PrefabInstance:
     - target: {fileID: 3018602627203365450, guid: 18e84f6d1075b194a9885ade86bc9132, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3018602627203365451, guid: 18e84f6d1075b194a9885ade86bc9132, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
+    - target: {fileID: 3018602627203365451, guid: 18e84f6d1075b194a9885ade86bc9132, type: 3}
+      propertyPath: m_SortingLayer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3018602627203365451, guid: 18e84f6d1075b194a9885ade86bc9132, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -96154607
       objectReference: {fileID: 0}
     - target: {fileID: 3018602627203365455, guid: 18e84f6d1075b194a9885ade86bc9132, type: 3}
       propertyPath: m_Name
@@ -9710,6 +10177,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bubbles
       objectReference: {fileID: 0}
+    - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912866475611328115, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1366625389
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e148055d30fe67c4dbfd09dde53b0b1a, type: 3}
 --- !u!4 &8655953891098180897 stripped
@@ -9729,12 +10204,20 @@ PrefabInstance:
       value: GroundObstacles
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: b0c74f516d76e1e428047ce3c62e6bb2, type: 3}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_SortingLayerID
-      value: 1529121103
+      value: 1700253713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151200845705001869, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8655953890274543929, guid: 7737ae690fffbc04bbb3fda39c03b7ef, type: 3}
       propertyPath: m_RootOrder

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Ink.Runtime;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -31,8 +32,20 @@ public class DialogueManager : MonoBehaviour
         {
             Debug.LogWarning("Found more than one Dialogue Manager in the scene");
         }
+        if (preppedInkFile != null)
+        {
+            inkFile = preppedInkFile;
+            preppedInkFile = null;
+        }
         instance = this;
         dialogueVariables = new DialogueVariables(loadGlobalsJSON);
+    }
+
+    static TextAsset preppedInkFile;
+    public static void LoadSceneWithDialogue(TextAsset ink)
+    {
+        preppedInkFile = ink;
+        SceneManager.LoadScene("DialogueScreen");
     }
 
     public static DialogueManager GetInstance()
@@ -76,6 +89,9 @@ public class DialogueManager : MonoBehaviour
     {
         Debug.Log("End of Dialogue!");
         dialogueVariables.StopListening(story);
+
+        DayManager.instance.AdvanceDay();
+        SceneManager.LoadScene("Hub");
     }
 
     // Continues the dialogue.

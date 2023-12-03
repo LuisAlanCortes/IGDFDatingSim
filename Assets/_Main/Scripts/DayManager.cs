@@ -4,19 +4,27 @@ using UnityEngine;
 
 public class DayManager : MonoBehaviour
 {
+    public static DayManager instance;
+    public int DayCounter;
+
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        // convert the variable into a Ink.Runtime.Object value
-        int dayCounter = 1;
-        Ink.Runtime.Object obj = new Ink.Runtime.IntValue(dayCounter);
-        // call the DialogueManager to set the variable in the globals dictionary
-        DialogueManager.GetInstance().SetVariableState("dayCounter", obj);
+        if (instance != null)
+        {
+            Destroy(this);
+            return;
+        }
+        DontDestroyOnLoad(this);
+        instance = this;
+        AdvanceDay();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void AdvanceDay()
     {
-        
+        DayCounter++;
+        Ink.Runtime.Object obj = new Ink.Runtime.IntValue(DayCounter);
+        // call the DialogueManager to set the variable in the globals dictionary
+        DialogueManager.GetInstance()?.SetVariableState("dayCounter", obj);
     }
 }

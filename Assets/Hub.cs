@@ -15,7 +15,7 @@ public class Hub : MonoBehaviour
     private void Start()
     {
         
-        dayCount.text = $"DAY {DayManager.instance.DayCounter} / 5";
+        dayCount.text = $"DAY {DayManager.instance.DayCounter} / 7";
 
         for (int i = 0; i < DayManager.instance.Minigames.Length; i++)
         {

@@ -17,6 +17,7 @@ public class StrengthManager : MonoBehaviour
     public Transform bg;
     public float punchForce;
     private float totalForce;
+    public GameObject tut;
     public TextMeshPro countdown;
     public TextMeshPro timerui;
     public float followSpeed;
@@ -165,6 +166,8 @@ public class StrengthManager : MonoBehaviour
             }
             yield return new WaitForEndOfFrame();
         }
+
+        tut.SetActive(false);
         canPunch = false;
 
         bag.SetShake(0f);

@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/GutsMinigame.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/WealthMinigame.unity
+    guid: b93f3a2f076f2014981e31885a754c36
+  - enabled: 1
     path: Assets/Scenes/DialogueScreen.unity
     guid: ca22699ed28e76343a254e0b00ea6101
   m_configObjects: {}

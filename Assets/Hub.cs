@@ -21,7 +21,7 @@ public class Hub : MonoBehaviour
         
         dayCount.text = $"DAY {DayManager.instance.DayCounter} / 7";
 
-        if (DayManager.instance.DayCounter == 7)
+        if (DayManager.instance.DayCounter > 7)
         {
             SceneManager.LoadScene("Game Over");
         }

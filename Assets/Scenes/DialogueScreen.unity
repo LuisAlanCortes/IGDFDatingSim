@@ -942,6 +942,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DayCounter: 0
   StoredSkills: 
+  Minigames: 
 --- !u!1 &1564743616
 GameObject:
   m_ObjectHideFlags: 0

@@ -90,7 +90,7 @@ public class StrengthManager : MonoBehaviour
         if (!cancel)
         {
             countdown.gameObject.SetActive(true);
-            int pointCalc = Mathf.FloorToInt(bag.transform.position.x / 200);
+            int pointCalc = Mathf.FloorToInt(bag.transform.position.x / 250);
             if (pointCalc < 0)
                 pointCalc = 0;
 

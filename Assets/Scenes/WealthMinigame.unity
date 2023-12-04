@@ -156,8 +156,9 @@ MonoBehaviour:
   SuccessPoints: {fileID: 2038290176}
   Agents: {fileID: 4708318899903661357, guid: a921d49a7df68b148ae2b28d8a80434f, type: 3}
   agentFrequency: 1.3
-  curveUp: 40
+  curveUp: 50
   powerUp: 1
+  pointThreshold: 40
   clumpThreshold: 30
   spawnRing: {x: 25.4, y: 18.82, z: 7.18}
 --- !u!4 &198777663

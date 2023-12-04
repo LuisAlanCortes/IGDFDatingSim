@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour // Handles mostly Points + game state.
     public TextMeshProUGUI pointsText;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI carryLimitText;
+    public TextMeshProUGUI pointsOnDeath;
     public GameObject gameOverScreen;
     public GameObject winScreen;
     
@@ -86,8 +87,15 @@ public class GameManager : MonoBehaviour // Handles mostly Points + game state.
     
     }
 
+    private void Info()
+    {
+        pointsOnDeath.gameObject.SetActive(true);
+        pointsOnDeath.text = $"GUTS POINTS EARNED: {Mathf.Clamp(GameManager.instance.Score / 30, 0, 3)}"; 
+    }
+
     public void GameOver(string reason) // Used by Player Controller and Time Controller.
     {
+        Info();
         Debug.Log("Game Over!");
         playerController.enabled = false; // Temporary disablement. 
         gameOverScreen.SetActive(true);
@@ -97,6 +105,7 @@ public class GameManager : MonoBehaviour // Handles mostly Points + game state.
 
     public void ShowWinScreen()
     {
+        Info();
         Debug.Log("Docked!");
         playerController.enabled = false;
         winScreen.SetActive(true);

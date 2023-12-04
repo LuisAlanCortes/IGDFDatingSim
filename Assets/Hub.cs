@@ -21,6 +21,11 @@ public class Hub : MonoBehaviour
         
         dayCount.text = $"DAY {DayManager.instance.DayCounter} / 7";
 
+        if (DayManager.instance.DayCounter == 7)
+        {
+            SceneManager.LoadScene("Game Over");
+        }
+
         for (int i = 0; i < DayManager.instance.Minigames.Length; i++)
         {
             if (DayManager.instance.Minigames[i])

@@ -13,6 +13,7 @@ public class WealthManager : MonoBehaviour
     public float agentFrequency;
     public float curveUp;
     public float powerUp;
+    public float pointThreshold = 90f;
     public float clumpThreshold = 30f;
 
     public Vector3 spawnRing;
@@ -67,7 +68,7 @@ public class WealthManager : MonoBehaviour
         if (paused)
             return;
 
-        int pt = Mathf.CeilToInt(totalTime / 120f);
+        int pt = Mathf.FloorToInt(totalTime / pointThreshold);
         paused = true;
         SuccessPoints.transform.parent.gameObject.SetActive(true);
         SuccessPoints.text = $"WEALTHINESS POINTS EARNED: {pt}";

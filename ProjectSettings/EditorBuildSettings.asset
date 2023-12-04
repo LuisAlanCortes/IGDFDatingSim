@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DialogueScreen.unity
     guid: ca22699ed28e76343a254e0b00ea6101
+  - enabled: 1
+    path: Assets/Scenes/Game Over.unity
+    guid: c5a2ffa3d40a2834081edb9ee506f76f
   m_configObjects: {}

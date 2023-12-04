@@ -15,7 +15,7 @@ public class MenuManager : MonoBehaviour
    public void QuitGame()
    {
         //Application.Quit();
-        DayManager.instance.AddToPoints(DayManager.Skill.GUTS, GameManager.instance.Score / 50);
+        DayManager.instance.AddToPoints(DayManager.Skill.GUTS, Mathf.Clamp(GameManager.instance.Score / 30, 0, 3));
         SceneManager.LoadScene("Hub");
     }
 

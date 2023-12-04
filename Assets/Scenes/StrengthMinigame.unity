@@ -5219,8 +5219,8 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 1
-      minScalar: 1
+      scalar: 0
+      minScalar: 0
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -10122,7 +10122,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitShakeTime: 0.5
   hitShakeMagnitude: 0.1
-  hitShakeFrequency: 0
+  torqueToForce: -30
+  landShake: 50
   anim: {fileID: 924457766}
   rb: {fileID: 952254358}
   impact: {fileID: 329907859}

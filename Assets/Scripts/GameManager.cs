@@ -26,6 +26,7 @@ public class GameManager : MonoBehaviour // Handles mostly Points + game state.
     private int currentlyHeld = 0;
     private int totalPoints = 0;
     private int score = 0;
+    public int Score { get => score; }
     
     
 
@@ -54,7 +55,6 @@ public class GameManager : MonoBehaviour // Handles mostly Points + game state.
         currentlyHeld += 1;  
         UpdatePointUI(); 
         
-        print(totalPoints);
 
     }
 
@@ -92,6 +92,7 @@ public class GameManager : MonoBehaviour // Handles mostly Points + game state.
         playerController.enabled = false; // Temporary disablement. 
         gameOverScreen.SetActive(true);
         timeController.StopTimer();
+
     }
 
     public void ShowWinScreen()
@@ -101,7 +102,7 @@ public class GameManager : MonoBehaviour // Handles mostly Points + game state.
         winScreen.SetActive(true);
         timeController.StopTimer();
         print(score);
-        
     }
+
 
 }

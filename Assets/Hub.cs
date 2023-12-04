@@ -47,15 +47,6 @@ public class Hub : MonoBehaviour
         SceneManager.LoadScene(scene);
     }
 
-    public enum Minigame { 
-        Guts,
-        Strength,
-        Charisma,
-        Perception,
-        Intelligence,
-        Wealthiness
-    }
-
     public void GoToPier()
     {
 

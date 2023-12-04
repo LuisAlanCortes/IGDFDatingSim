@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/StrengthMinigame.unity
     guid: dda199be9caaa7340b76d319d3030f8e
   - enabled: 1
-    path: Assets/Scenes/GameScene.unity
+    path: Assets/Scenes/GutsMinigame.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/DialogueScreen.unity

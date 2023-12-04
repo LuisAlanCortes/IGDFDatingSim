@@ -160,6 +160,7 @@ public class DialogueManager : MonoBehaviour
         {
             Destroy(optionPanel.transform.GetChild(i).gameObject);
         }
+        choices = null;
         choiceSelected = null; // Forgot to reset the choiceSelected. Otherwise, it would select an option without player intervention.
         AdvanceDialogue();
     }

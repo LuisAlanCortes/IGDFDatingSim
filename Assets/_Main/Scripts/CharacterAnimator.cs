@@ -19,14 +19,6 @@ public class CharacterAnimator : MonoBehaviour
         charRect = charSprite.rectTransform;
     }
 
-    private void OnGUI()
-    {
-        if (GUI.Button(new Rect(0, 0, 100, 100), "Boing"))
-        {
-            StartCoroutine(CoBounce(debugTime, debugIntensity, debugFrq));
-        }
-    }
-
     private const string DEFAULT_SPRITE = "default";
     public void SetCharacter(string id)
     {

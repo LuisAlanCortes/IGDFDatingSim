@@ -56,16 +56,19 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         nameBox.SetActive(true);
+
+        if (DayManager.instance)
+            DayManager.instance.ConfirmValues();
+
         story = new Story(inkFile.text);
         dialogueVariables.StartListening(story);
         message = textBox.transform.GetChild(0).GetComponent<TMP_Text>();
         choiceSelected = null;
         displayNameText.text = "???";
 
-        if (DayManager.instance)
-            DayManager.instance.ConfirmValues();
     }
 
+    private Coroutine choices;
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
@@ -78,15 +81,17 @@ public class DialogueManager : MonoBehaviour
                 //Are there any choices?
                 if (story.currentChoices.Count != 0)
                 {
-                    StartCoroutine(ShowChoices());
+                    choices = StartCoroutine(ShowChoices());
                 }
             }
-            else
+            else if (choices == null)
             {
                 FinishDialogue();
             }
         }
     }
+
+
     // Presents a message in the console that the INK file is expended; finishes dialogue.
     private void FinishDialogue()
     {

@@ -1729,7 +1729,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 725341403}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1561897982}
+        m_TargetAssemblyTypeName: Hub, Assembly-CSharp
+        m_MethodName: Angler
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &725341403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2479,7 +2491,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1137717652}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1561897982}
+        m_TargetAssemblyTypeName: Hub, Assembly-CSharp
+        m_MethodName: Jellyfish
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1137717652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3447,7 +3471,11 @@ MonoBehaviour:
   - {fileID: 1245665387}
   - {fileID: 1741532064}
   - {fileID: 2067709399}
+  PierButton: {fileID: 723656953}
   Points: 3
+  OrcaText: {fileID: 0}
+  JellyfishText: {fileID: 0}
+  AnglerText: {fileID: 0}
 --- !u!1 &1595192080
 GameObject:
   m_ObjectHideFlags: 0
@@ -4149,7 +4177,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1804123289}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1561897982}
+        m_TargetAssemblyTypeName: Hub, Assembly-CSharp
+        m_MethodName: Orca
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1804123289
 MonoBehaviour:
   m_ObjectHideFlags: 0

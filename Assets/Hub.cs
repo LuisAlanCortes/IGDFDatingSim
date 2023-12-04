@@ -10,7 +10,11 @@ public class Hub : MonoBehaviour
     [SerializeField] TextMeshProUGUI dayCount;
     [SerializeField] TextMeshProUGUI pointCount;
     [SerializeField] Button[] minigameButtons;
+    [SerializeField] Button PierButton;
     [SerializeField] int Points;
+    [SerializeField] TextAsset OrcaText;
+    [SerializeField] TextAsset JellyfishText;
+    [SerializeField] TextAsset AnglerText;
 
     private void Start()
     {
@@ -31,12 +35,14 @@ public class Hub : MonoBehaviour
             {
                 minigameButtons[i].interactable = false;
             }
+            PierButton.interactable = true;
         } else
         {
             for (int i = 0; i < DayManager.instance.Minigames.Length; i++)
             {
                 minigameButtons[i].interactable = !DayManager.instance.Minigames[i];
             }
+            PierButton.interactable = false;
         }
 
         pointCount.text = $"POINTS LEFT: {Points}";
@@ -47,8 +53,16 @@ public class Hub : MonoBehaviour
         SceneManager.LoadScene(scene);
     }
 
-    public void GoToPier()
+    public void Jellyfish()
     {
-
+        DialogueManager.LoadSceneWithDialogue(JellyfishText);
+    }
+    public void Orca()
+    {
+        DialogueManager.LoadSceneWithDialogue(OrcaText);
+    }
+    public void Angler()
+    {
+        DialogueManager.LoadSceneWithDialogue(AnglerText);
     }
 }
